@@ -423,7 +423,7 @@
 		(path "/ffac3746-3245-4998-9742-812d8cb4ae56")
 		(sheetname "/")
 		(sheetfile "USB_A_testboard_rev.A01.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -5 -5.2)
 			(end -5 5.2)

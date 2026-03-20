@@ -10,7 +10,12 @@ Also, there is a demo PCBs in the testboards folder
 - combined board for USB-C and microUSB connectors because of the same PCB thickness of 0.6mm
 ![USB-C and microUSB testboard](./assets/USB_C_and_microUSB_testboard_rev.A01.png)
 - testboard for USB type A (regular USB) edge PCB plug connector thickness 2.0mm
-![USB type A testboard](./assets/USB_A_testboard_rev.A01.png)
+![USB type A testboard front](./assets/USB_A_testboard_rev.A01.png)
+![USB type A testboard back](./assets/USB_A_testboard_rev.A01_back.png)
+
+## PCB Spacers for USB type A (low-cost prototyping)
+
+The `testboards/USB_A_testboard_rev.A01/PCB_Spacers/` folder contains 3D-printable STL spacer files (0.4 mm and 0.5 mm) sized for the USB type A testboard. These spacers allow you to use a cheap and standard 1.6 mm HASL PCB instead of the recommended 2.0 mm board — ideal for low-cost prototyping. Note that this approach won't be as durable as a proper 2.0 mm ENIG board and the contacts may tarnish over time.
 
 ## Tips and tricks
 
